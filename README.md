@@ -24,3 +24,10 @@ Weight decay (l2 norm) = 0
 Final accuracy = 67.32%
 
 _Refer to cnn.pdf for more details_
+
+## Instructions on running the code
+
+1. Go to Google Colaboratory: https://colab.research.google.com/notebooks/welcome.ipynb
+2. File - New Python 3 notebook
+3. Cut and paste this file into the cell (feel free to divide into multiple cells)
+4. Runtime - Run all

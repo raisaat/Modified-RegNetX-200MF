@@ -14,13 +14,6 @@
 #    This script achieved a best accuracy of 67.32% on epoch 125 with a learning
 #    rate at that point of 0.001023 and time required for each epoch of ~ 117 s
 #
-# INSTRUCTIONS
-#
-#    1. Go to Google Colaboratory: https://colab.research.google.com/notebooks/welcome.ipynb
-#    2. File - New Python 3 notebook
-#    3. Cut and paste this file into the cell (feel free to divide into multiple cells)
-#    4. Runtime - Run all
-#
 # NOTES
 #
 #    0. For a mapping of category names to directory names see:
@@ -41,9 +34,6 @@
 #       The original RegNetX takes in 3x224x224 input images and generates Nx7x7
 #       feature maps before the decoder, this modified RegNetX will take in
 #       3x56x56 input images and generate Nx7x7 feature maps before the decoder.
-#       For reference, an implementation of this network took ~ 112 s per epoch
-#       for training, validation and checkpoint saving on Sep 27, 2020 using a
-#       free GPU runtime in Google Colab.
 #
 ################################################################################
 

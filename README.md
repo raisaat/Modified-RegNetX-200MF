@@ -12,6 +12,8 @@ This project uses PyTorch to modify, train and implement RegNetX-200MF for image
 
 The original RegNetX-200MF takes in 3x224x224 input images and generates Nx7x7 feature maps before the decoder. This modified RegNetX-200MF will take in 3x56x56 input images (cropped from the provided data set) and generate Nx7x7 feature maps before the decoder.
 
+_Refer to cnn.pdf for more details_
+
 ## Training
 
 Number of epochs = 125  
@@ -22,8 +24,6 @@ Optimizer = Adam
 Weight decay (l2 norm) = 0
 
 Final accuracy = 67.32%
-
-_Refer to cnn.pdf for more details_
 
 ## Instructions on running the code
 
